@@ -9,6 +9,11 @@
 import { Component, Vue } from "vue-property-decorator";
 import HelloWorld from "./components/HelloWorld.vue";
 
+interface ICat {
+  name: string;
+}
+const cat: ICat = { name: "flerp" };
+
 @Component({
   components: {
     HelloWorld
